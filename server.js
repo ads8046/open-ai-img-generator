@@ -16,11 +16,11 @@ const openai = new OpenAIApi(configuration);
 app.post('/images', async (req, res) => {
     try {
         const response = await openai.createImage({
-            prompt: "A cute baby sea otter",
-            n: 2,
-            size: "1024x1024",
+            prompt: req.body.message,
+            n: 10,
+            size: "256x256",
         });
-        console.log(response.data.data);
+        // console.log(response.data.data);
         res.send(response.data.data);
     } catch (error) {
         console.log(error);

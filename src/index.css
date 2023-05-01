@@ -7,7 +7,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #fafafc;
+    background-color: whitesmoke;
     color: #777;
     display: flex;
     justify-content: center;
@@ -17,11 +17,25 @@ body {
     width: 95vw;
 }
 
+h1 {
+    color: #777777;
+}
+
+.built-by {
+    font-size: 0.6em;
+    color: mediumseagreen;
+}
+
+.project-description {
+    font-size: 0.8em;
+}
+
 .search-section {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100px;
 }
 
 .surprise {
@@ -31,6 +45,7 @@ body {
     font-weight: 600;
     padding: 4px 12px;
     margin: 0 0 2px 5px;
+    cursor: pointer;
 }
 
 .input-container {
@@ -68,4 +83,26 @@ body {
 .input-container button:hover {
     background-color: lightgrey;
     color: white;
+}
+
+.image-section {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.image-section img {
+    margin: 1px;
+    min-width: 250px;
+    max-width: 33%;
+    flex-grow: 1;
+}
+
+@media (max-width: 556px) {
+    .image-section img {
+        max-width: 100%;
+    }
 }
