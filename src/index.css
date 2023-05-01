@@ -21,8 +21,17 @@ h1 {
     color: #777777;
 }
 
+
+.picasso{
+    background: linear-gradient(to right, red, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, purple, #f9a825, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .built-by {
-    font-size: 0.6em;
+    margin-left: 10px;
+    font-size: 0.4em;
+    font-weight: bold;
     color: mediumseagreen;
 }
 
@@ -86,7 +95,10 @@ h1 {
 }
 
 .image-section {
+    border-radius: 10px;
+    padding: 10px;
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -95,10 +107,12 @@ h1 {
 }
 
 .image-section img {
-    margin: 1px;
+    margin: 2px;
     min-width: 250px;
     max-width: 33%;
     flex-grow: 1;
+    border-radius: 10px;
+    border: black solid 1px;
 }
 
 @media (max-width: 556px) {

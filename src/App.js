@@ -45,13 +45,15 @@ const App = () => {
 
     return (
         <div className="App">
-          <h1>AI Image Generator <span className={"built-by"}>Built by Atharva Shivankar</span></h1>
+            <h1><span className={"picasso"}>PicassoAI</span> - Image Generator
+                <span className={"built-by"}>Built by Atharva Shivankar</span>
+            </h1>
           <p className={"project-description"}>
-              An OpenAI API / DALL-E 2 model Experimental Project.
+              An OpenAI API / DALL-E 2 Model Experimental Project.
               Not intended for commercial use.
           </p>
           <section className={"search-section"}>
-            <p>Enter a detailed description of the image
+            <p>Enter a detailed description of the image or
               <span className={"surprise"} onClick={feelingLucky}>Feeling Lucky!</span>
             </p>
             <div className={"input-container"}>
