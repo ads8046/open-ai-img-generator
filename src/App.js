@@ -1,8 +1,6 @@
 import {useState} from "react";
 
 
-
-
 const App = () => {
     const [images, setImages] = useState(null);
     const [value, setValue] = useState(null);
