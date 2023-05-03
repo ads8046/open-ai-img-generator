@@ -1,6 +1,6 @@
 ### PicassoAI - AI Image Generator
 
-PicassoAI is my project and is an image generator built using the OpenAI's API to utilize the DALL-E 2 model for AI image generation.
+PicassoAI is my personal project and is an image generator built using the OpenAI's API to utilize the DALL-E 2 model for AI image generation.
 
 ## Requirements
 
