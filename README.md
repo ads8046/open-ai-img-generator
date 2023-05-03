@@ -8,8 +8,8 @@ PicassoAI is my personal project and is an image generator built using the OpenA
 - Modern web browser
 - npm (LTS)
 
-## Setup and starting the app
+## Setup and launching the app
 
 - Clone the repository
 - run npm install to install dependancies in package.json
-- build and start by running npm start:backend and npm start:frontend to launch the app.
+- build and start by running command in the root - npm run start:backend and npm run start:frontend to launch the app.
