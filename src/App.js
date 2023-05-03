@@ -1,6 +1,5 @@
 import {useState} from "react";
 
-
 const App = () => {
     const [images, setImages] = useState(null);
     const [value, setValue] = useState(null);
@@ -37,7 +36,6 @@ const App = () => {
             'An ant drinking apple juice',
             'A pineapple drinking lemonade on a beach'
         ]
-
         setImages(null);
         const randomVal = surpriseOptions[Math.floor(Math.random() * surpriseOptions.length)];
         setValue(randomVal);
@@ -45,6 +43,7 @@ const App = () => {
 
     return (
         <div className="App">
+
             <h1><span className={"picasso"}>PicassoAI</span> - Image Generator
                 <span className={"built-by"}>Built by Atharva Shivankar</span>
             </h1>
