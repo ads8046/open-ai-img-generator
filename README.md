@@ -4,7 +4,7 @@ PicassoAI is my personal project and is an image generator built using the OpenA
 
 ## Requirements
 
-- Node 14.x.x
+- Node.JS v14.x.x
 - Modern web browser
 - npm (LTS)
 
